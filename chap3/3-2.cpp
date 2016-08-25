@@ -2,6 +2,10 @@
 #include<ctype.h>
 #define maxn 100
 
+/* note that getchar() not work in this problem.
+ * seems that the blanks in the input file is unknown.
+ * so the getchar() may get some blanks and WA. */
+
 int main(){
     int kase;
     char s[100];
