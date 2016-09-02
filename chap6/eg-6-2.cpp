@@ -1,5 +1,10 @@
 // UVa 514 Rails
 // Mo Frank Hu
+/* Notes:
+ *      - 需要返回值时 scanf 比 iostream 更好用;
+ *      - 此题队列不需要入队, 数组即可, 不需要引入一个起始队列;
+ *      - define 可改用 const int MAXN = 1000+10;
+ */
 
 #include<iostream>
 #include<queue>
