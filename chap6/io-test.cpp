@@ -42,18 +42,19 @@ void scanf_scanf_s(){
 void scanf_getline(){
     int a;
     string b;
-    scanf("%d", &a);
+    scanf("%d\n", &a);
     printf("%d\n", a);
     //getline(b);
     getline(cin, b); // 读入的字符数组不含换行符
     cout << b;
+    cout << "1" << endl;
     getline(cin, b);
     cout << b;
 }
 
 int main(){
     //scanf_getchar();
-    //scanf_getline();
+    scanf_getline();
     //scanf_scanf_c();
-    scanf_scanf_s();
+    //scanf_scanf_s();
 }
