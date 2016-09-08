@@ -15,7 +15,8 @@ int main(){
         printf("CASE# %d:\n", ++kase);
         for(int i = 0; i < n; i++)
             cin >> s[i];
-        sort(s, s + n);
+        sort(s, s + n); // sort(begin, end), note: end is the next of last element
+        // i.e. sort() only get [begin, end)
         for(int i = 0; i < q; i++) {
             int j;
             cin >> j;

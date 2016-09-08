@@ -21,3 +21,7 @@ memset: `memset(a, 0, sizeof(a))` 注意: 只能初始化为 0 或 -1 !!(因 mem
 - 数字用 `scanf("%d")` 等读入
 - 读入整行时, `getline(cin, str)` 也可以(因 cin >> string 会被空格打断)
 - 需要返回值时 scanf 比 cin 流更好用
+
+eg-5-1: sort array s[n]: sort(s, s+n). sort(begin, end) 的序列中 end 不参与排序
+即只排序 [begin, end). 这里的end 指向末尾元素的下个位置
+ref: http://www.cplusplus.com/articles/NhA0RXSz/
