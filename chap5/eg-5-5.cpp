@@ -43,6 +43,7 @@ int main(){
             }
             cout << Setcache[s.top()].size() << endl;
         }
+        cout << s.size();
         cout << "***\n";
     }
     return 0;
